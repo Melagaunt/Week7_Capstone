@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box
+}
+
+
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -8,3 +13,23 @@ body {
 
 
 
+.widthSet {
+	max-width: 64px;
+}
+
+.heightSet {
+	max-height: 64px;
+}
+
+
+.horizontal li {
+	float: left;
+}
+
+li a {
+  display: block;
+  color: #ff0000;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
