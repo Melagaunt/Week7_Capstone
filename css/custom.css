@@ -35,6 +35,10 @@ color: white;
 	border-radius: .3rem;
 }
 
+.jumbotron-detail-wide {
+	background: url('/images/Sampled_Basket.jpg') no-repeat fixed ;
+	background-size: cover;
+}
 .jumbotron-detail-TwoThird {
 	background: url('/images/Sampled_Basket.jpg') no-repeat fixed ;
 	background-size: cover;
