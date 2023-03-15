@@ -9,6 +9,7 @@ body > main{
 		background-image: url('../images/GoodwayLogo-Trans95.jpg');
 		background-repeat: no-repeat;
 		background-size: Contain;
+		background-position: center;
 	
 }
 
@@ -24,10 +25,10 @@ body > main{
 }
 
 
-.horizontal li {
+.horizontal > li {
 	float: left;
+	list-style-type: none
 }
-
 li a {
   display: block;
   color: #ff0000;
@@ -35,6 +36,7 @@ li a {
   padding: 16px;
   text-decoration: none;
 }
+
 
 
 /* w3s Hero Edits */
@@ -64,3 +66,5 @@ li a {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+
