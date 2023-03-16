@@ -9,7 +9,7 @@ body > main{
 		background-repeat: no-repeat;
 		background-size: Contain;
 		background-position: center;
-		min-height: 100vh;
+		min-height: 50vh;
 }
 
 .img:hover {
