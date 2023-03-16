@@ -60,7 +60,7 @@ li a {
 	position: relative;
 }
 .hero-image-bottom { 
-  background-image: url('./images/Hero_InFlightBasket_16.9.jpg');
+  background-image: url('../images/Hero_InFlightBasket_16.9.jpg');
   /* background-color: #cccccc; */
   height: 250px;
   background-position: center;
