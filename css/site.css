@@ -10,6 +10,7 @@ body > main{
 		background-repeat: no-repeat;
 		background-size: Contain;
 		background-position: center;
+		min-height: 100vh;
 	
 }
 
@@ -42,7 +43,7 @@ li a {
 /* w3s Hero Edits */
 .hero-image-top {
   background-image: url("/images/Hero_InBasket_16.9.jpg");
-  background-color: #cccccc;
+  /* background-color: #cccccc; */
   height: 450px;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,7 +74,13 @@ li a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+	color:  #fd7e14;
+	
+	text-shadow: 2px 2px #ff0000, ;
+}
+
+.card > img {
+	padding-top: .5em;
 }
 
 
