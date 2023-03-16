@@ -71,16 +71,35 @@ li a {
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 	color:  #fd7e14;
 	
-	text-shadow: 2px 2px #ff0000, ;
+	text-shadow: 2px 2px #ff0000;
 }
 
+.card {
+	min-height: 200px;
+	background-color: rgba(13, 110, 253,.25);
+	color: rgba(13, 110, 253,.85);
+	
+	
+}
+.card-header{
+	background-color: transparent;
+	text-align: center;
+	font-weight: bold;
+	font-size:  1.25em;
+}
 .card > img {
 	padding-top: .5em;
 }
 
+.card-body{
+	text-align: Center;
+	text-indent: 5px;
+	font-weight: 500;
+	
+}
 
