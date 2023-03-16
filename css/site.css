@@ -59,7 +59,7 @@ li a {
   background-size: contain;
 	position: relative;
 }
-.hero-image-bottom {
+.hero-image-bottom { 
   background-image: url("../images/Hero_InFlightBasket_16.9.jpg");
   /* background-color: #cccccc; */
   height: 250px;
