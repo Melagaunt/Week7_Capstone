@@ -38,7 +38,7 @@ li a {
 
 /* w3s Hero Edits */
 .hero-image-top {
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Hero_InBasket_16.9.jpg');
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/Hero_InBasket_16.9.jpg');
 	height: 650px;
 	background-position: center;
 	
@@ -48,7 +48,7 @@ li a {
   position: relative;
 }
 .hero-image-mid {
-  background-image: url('../images/Hero_InFlightBasket_16.9.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/Hero_InFlightBasket_16.9.jpg');
 	height: 650px;
 	background-position: center;
 	
@@ -58,7 +58,7 @@ li a {
   position: relative;
 }
 .hero-image-bottom { 
-  background-image: url('../images/Hero_GroupTilt_16_9.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/Hero_GroupTilt_16_9.jpg');
 	height: 650px;
 	background-position: center;
 	
