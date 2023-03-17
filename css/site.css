@@ -121,6 +121,8 @@ li a {
 }
 footer{
 	background-color: rgba(13, 110, 253,.25);
+	font-weight: bolder;
+	font-size: 1.1em;
 }
 
 .table a
