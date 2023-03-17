@@ -118,3 +118,8 @@ li a {
 	font-size: 1.1em;
 }
 
+.table a
+{
+    display:block;
+    text-decoration:none;
+}

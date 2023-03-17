@@ -32,7 +32,8 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-sm sticky-top nav-colors">
+		<nav class="navbar navbar-expand-lg sticky-top nav-colors">
+
 			<div class="container-fluid">
 				<a
 					class="navbar-brand"
@@ -40,9 +41,8 @@
 				>
 					<img
 						src="./images/GoodwayLogo_bg-TRN.png"
-						clat="Goodway Brand Logo"
+						alt="Goodway Brand Logo"
 						class="d-inline-block align-top "
-						alt=""
 						style="width:40px;"
 					>
 				</a>
@@ -62,7 +62,8 @@
 					id="navbarSupportedContent"
 				>
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item active">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+						<li class="nav-item ">
 							<a
 								class="nav-link"
 								href="index.html"
@@ -97,19 +98,72 @@
 				</div>
 			</div>
 		</nav>
-		<div class="hero-image-top">
-			<div class="hero-text">
-				<h1 style="font-size:50px">
-					Pacific Northwest <br>
-					Disc Golf
-				</h1>
-			</div>
-		</div>
+
 	</header>
+
+	<div class="hero-image-top">
+		<div class="hero-text">
+			<h1 style="font-size:50px">
+				Registration
+			</h1>
+		</div>
+	</div>
 
 
 	<Main>
+		<div class="container mt-3 ">
+			<h2>Top 5 Courses in Oregon</h2>
+			<table class="table table-hover table-responsive">
+				<thead>
+					<tr>
+						<th>Course</th>
+						<th>Location</th>
+						<th>Baskets</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<!-- <td><a href="https://www.discgolfscene.com/courses/Riverbend_DGC_at_Milo_McIver" target="_blank">Milo McIver State Park</a></td> -->
+						<td>Milo McIver State Park</td>
+						<td>Etacada, OR</td>
+						<td>27</td>
+					</tr>
+					<tr>
+						<!-- <td><a href="https://www.discgolfscene.com/courses/Whistlers_Bend" target="_blank">Whistler's Bend</a></td> -->
+						<td>Whistler's Bend</td>
+						<td>Roseburg, OR</td>
+						<td>27</td>
+					</tr>
+					<tr>
+						<!-- <td><a href="https://www.discgolfscene.com/courses/Hornings_Hideout" target="_blank">Hornings Hideout</a></td> -->
+						<td>Hornings Hideout</td>
+						<td>North Palins, OR</td>
+						<td>72</td>
+					</tr>
+					<tr>
+						<!-- <td><a href="https://www.discgolfscene.com/courses/Dexter_Park" target="_blank">Dexter Park</a></td> -->
+						<td>Dexter Park</td>
+						<td>Dexter, OR</td>
+						<td>18</td>
+					</tr>
+					<tr>
+						<!-- <td><a href="https://www.discgolfscene.com/courses/Blue_Lake_Park" target="_blank">Blue Lake</a></td> -->
+						<td>Blue Lake</td>
+						<td>Fairview, OR</td>
+						<td>18</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
+		<form>
+			<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+			<label for="vehicle1"> I have a bike</label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+			<label for="vehicle2"> I have a car</label><br>
+			<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+			<label for="vehicle3"> I have a boat</label>
+		</form>
 	</Main>
 
 
