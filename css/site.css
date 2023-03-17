@@ -73,10 +73,7 @@ li a {
 .card {
 	min-height: 200px;
 	/* height:=$card-height; */
-
-	
 	justify-content: space-around;
-	
 }
 .card-header{
 	background-color: transparent;
@@ -91,18 +88,15 @@ li a {
 	height: 75px
 }
 
-.navbar {
 
-}
 
 
 .text-primary {
 	color: rgba(13, 110, 253,.85);
 	background-color: rgba(13, 110, 253,.25);
 }
-.nav-text-primary {
+.nav-colors {
 	color: #fd7e14;
-	font-weight: bolder;
 	background-color: rgb(13, 110, 253);
 }
 .nav-link {
