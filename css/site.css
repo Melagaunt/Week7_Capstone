@@ -103,6 +103,11 @@ li a {
 	color: rgba(13, 110, 253,.85);
 	background-color: rgba(13, 110, 253,.25);
 }
+
+.navbar-brand {
+	padding-top: 0;
+	padding-bottom: 0;
+}
 .nav-colors {
 	color: #fd7e14;
 	background-color: rgb(13, 110, 253);
