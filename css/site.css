@@ -102,7 +102,8 @@ li a {
 .text-primary {
 	color: rgba(13, 110, 253,.85);
 	font-weight: bold;
-	background-color: rgba(13, 110, 253,.25);
+	/* background-color: rgba(13, 110, 253,.25); */
+	background-color:#C1DDFB;
 }
 
 .navbar-brand {
@@ -112,7 +113,7 @@ li a {
 .nav-colors {
 	color: #fd7e14;
 	/* background-color: rgb(13, 110, 253); */
-	background-color: rgba(13, 110, 253,.25);
+	background-color:#C1DDFB;
 }
 .nav-link {
 	color: #fd7e14;
@@ -120,10 +121,18 @@ li a {
 	font-size: 1.1em;
 }
 footer{
-	background-color: rgba(13, 110, 253,.25);
+	/* background: url('../images/layer-white.png'); */
+	/* background-color:rgba(13, 110, 253,.25); */
+	background-color:#C1DDFB;
 	font-weight: bolder;
 	font-size: 1.1em;
+	position: relative; //changed to relative from fixed also works if position is not there
+    
 }
+/* .footer-layer {
+	background-color: rgba(13, 110, 253,.25);
+	z-index: 2;
+} */
 
 .table a
 {
@@ -133,13 +142,11 @@ footer{
 .center {
   margin: auto;
   width: 50%;
-  /* border: 3px solid green; */
-  /* padding: 10px; */
 }
 .right {
   position: absolute;
   right: 0px;
-  /* width: 300px; */
-  /* border: 3px solid #73AD21; */
-  /* padding: 10px; */
 }
+
+
+
