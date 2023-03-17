@@ -101,6 +101,7 @@ li a {
 
 .text-primary {
 	color: rgba(13, 110, 253,.85);
+	font-weight: bold;
 	background-color: rgba(13, 110, 253,.25);
 }
 
@@ -110,7 +111,8 @@ li a {
 }
 .nav-colors {
 	color: #fd7e14;
-	background-color: rgb(13, 110, 253);
+	/* background-color: rgb(13, 110, 253); */
+	background-color: rgba(13, 110, 253,.25);
 }
 .nav-link {
 	color: #fd7e14;
@@ -122,4 +124,17 @@ li a {
 {
     display:block;
     text-decoration:none;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  /* padding: 10px; */
+}
+.right {
+  position: absolute;
+  right: 0px;
+  /* width: 300px; */
+  /* border: 3px solid #73AD21; */
+  /* padding: 10px; */
 }
