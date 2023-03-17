@@ -1,7 +1,9 @@
 * {
 	box-sizing: border-box;
 }
-
+body, html {
+	height: 100%;
+}
 body > main{
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -36,16 +38,19 @@ li a {
 
 /* w3s Hero Edits */
 .hero-image-top {
-  background-image: url('../images/Hero_InBasket_16.9.jpg');
-  height: 450px;
-  background-position: center;
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Hero_InBasket_16.9.jpg');
+	height: 650px;
+	background-position: center;
+	
+	background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 .hero-image-mid {
   background-image: url('../images/Hero_GroupTilt_16_9.jpg');
-  height: 250px;
+	height: 250px;
+	
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
