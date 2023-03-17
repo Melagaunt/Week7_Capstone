@@ -33,7 +33,9 @@ li a {
   color:#fd7e14;
   text-align: center;
   padding: 16px;
-  text-decoration: none;
+	text-decoration: underline;
+
+	
 }
 
 /* w3s Hero Edits */
@@ -96,9 +98,6 @@ li a {
 	height: 75px
 }
 
-
-
-
 .text-primary {
 	color: rgba(13, 110, 253,.85);
 	font-weight: bold;
@@ -129,10 +128,6 @@ footer{
 	position: relative; //changed to relative from fixed also works if position is not there
     
 }
-/* .footer-layer {
-	background-color: rgba(13, 110, 253,.25);
-	z-index: 2;
-} */
 
 .table a
 {
